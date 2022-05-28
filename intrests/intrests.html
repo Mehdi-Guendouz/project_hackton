@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="intrests.css">
+    <title>Your Intrests</title>
+</head>
+<body>
+    <div class="main_container font_Poppins">
+        <form method="POST" action="" class = "form_hub">
+            <!--{% csrf_token %}-->
+        <div class="item_container">
+            <div class="titel_container">
+                <h1>Your interests</h1>
+            </div>
+            <div class="computer_science_container">
+                <div class="computer_science">
+                    <h1>Computer science</h1>
+                    <div class="computer_science_fields">
+                        <div>
+                            <button type="button" class="Btn_itrs btn_hover">cyber security</button>
+                            <input type = 'checkbox' class="check_boxes hide_check" value = "cyber_security" name = 'selection'>
+                            <button type="button" class="Btn_itrs btn_hover">AI</button>
+                            <input type = 'checkbox' class="check_boxes hide_check" value = "AI" name = 'selection'>
+                            <button type="button" class="Btn_itrs btn_hover">design</button>
+                            <input type = 'checkbox' class="check_boxes hide_check" value = "design" name = 'selection'>
+                        </div>
+                        <div class="secondOne">
+                            <button type="button" class="Btn_itrs btn_hover">IT systems</button>
+                            <input type = 'checkbox' class="check_boxes hide_check" value = "IT_systems" name = 'selection'>
+                            <button type="button" class="Btn_itrs btn_hover">IoT</button>
+                            <input type = 'checkbox' class="check_boxes hide_check" value = "IoT" name = 'selection'>
+                        </div>
+                        <div class="lastone">
+                            <button type="button" class="Btn_itrs btn_hover">software engineering</button>
+                            <input type = 'checkbox' class="check_boxes hide_check" value = "software_engineering" name = 'selection'>
+                            <button type="button" class="Btn_itrs btn_hover">networks</button>
+                            <input type = 'checkbox' class="check_boxes hide_check" value = "networks" name = 'selection'>
+                            <button type="button" class="Btn_itrs btn_hover">data science</button>
+                            <input type = 'checkbox' class="check_boxes hide_check" value = "data science" name = 'selection'>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="computer_science_container border_container">
+               <div class="computer_science">
+                    <h1>hobbies</h1>
+                    <div class="computer_science_fields width-2">
+                        <div>
+                            <button type="button" class="Btn_itrs btn_hover">Books</button>
+                            <input type = 'checkbox' class="check_boxes hide_check" value = "Books" name = 'selection'>
+                            <button type="button" class="Btn_itrs btn_hover">Movies</button>
+                            <input type = 'checkbox' class="check_boxes hide_check" value = "Movies" name = 'selection'>
+                            <button type="button" class="Btn_itrs btn_hover">Music</button>
+                            <input type = 'checkbox' class="check_boxes hide_check" value = "Music" name = 'selection'>
+                        </div>
+                        <div class="secondOne">
+                            <button type="button" class="Btn_itrs btn_hover">Drawing</button>
+                            <input type = 'checkbox' class="check_boxes hide_check" value = "Drawing" name = 'selection'>
+                            <button type="button" class="Btn_itrs btn_hover">Manga</button>
+                            <input type = 'checkbox' class="check_boxes hide_check" value = "Manga" name = 'selection'>
+                        </div>
+                        <div>
+                            <button type="button" class="Btn_itrs btn_hover">Anime</button>
+                            <input type = 'checkbox' class="check_boxes hide_check" value = "Anime" name = 'selection'>
+                            <button type="button" class="Btn_itrs btn_hover">Series</button>
+                            <input type = 'checkbox' class="check_boxes hide_check" value = "Series" name = 'selection'>
+                            <button type="button" class="Btn_itrs btn_hover">Drawing</button>
+                            <input type = 'checkbox' class="check_boxes hide_check" value = "Drawing" name = 'selection'>
+                        </div>
+                        <div>
+                            <button type="button" class="Btn_itrs btn_hover">hiking</button>
+                            <input type = 'checkbox' class="check_boxes hide_check" value = "hiking" name = 'selection'>
+                            <button type="button" class="Btn_itrs btn_hover">singing</button>
+                            <input type = 'checkbox' class="check_boxes hide_check" value = "singing" name = 'selection'>
+                            <button type="button" class="Btn_itrs btn_hover">cooking</button>
+                            <input type = 'checkbox' class="check_boxes hide_check" value = "cooking" name = 'selection'>
+                        </div>
+                    </div>
+               </div>
+            </div>
+            <div class="computer_science_container border_container ">
+                <div class="computer_science">
+                    <h1>Sports</h1>
+                    <div class="computer_science_fields ">
+                        <div>
+                            <button type="button" class="Btn_itrs btn_hover">Football</button>
+                            <input type = 'checkbox' class="check_boxes hide_check" value = "Football" name = 'selection'>
+                            <button type="button" class="Btn_itrs btn_hover">Tennis</button>
+                            <input type = 'checkbox' class="check_boxes hide_check" value = "Tennis" name = 'selection'>
+                            <button type="button" class="Btn_itrs btn_hover">Basketball</button>
+                            <input type = 'checkbox' class="check_boxes hide_check" value = "Basketball" name = 'selection'>
+                        </div>
+                        <div class="secondOne">
+                            <button type="button" class="Btn_itrs btn_hover">handball</button>
+                            <input type = 'checkbox' class="check_boxes hide_check" value = "handball" name = 'selection'>
+                            <button type="button" class="Btn_itrs btn_hover">volleyball</button>
+                            <input type = 'checkbox' class="check_boxes hide_check" value = "volleyball" name = 'selection'>
+                        </div>
+                        <div>
+                            <button type="button" class="Btn_itrs btn_hover">Fitness</button>
+                            <input type = 'checkbox' class="check_boxes hide_check" value = "Fitness" name = 'selection'>
+                            <button type="button" class="Btn_itrs btn_hover">Jogging</button>
+                            <input type = 'checkbox' class="check_boxes hide_check" value = "Jogging" name = 'selection'>
+                            <button type="button" class="Btn_itrs btn_hover">Cyclism</button>
+                            <input type = 'checkbox' class="check_boxes hide_check" value = "Cyclism" name = 'selection'>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="save_btn border_container">
+                <button type="submit">save</button>
+            </div>
+        </div>
+    </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

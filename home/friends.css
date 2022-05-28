@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Paytone+One&family=Poppins:wght@100;200;300;500;600;700&family=Roboto&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+:root{
+    --main_color : #F4F0FF;
+    --second_color : #A98CF3;
+    --input_color : #F4F0FF;
+    --label_color: #744FA1;
+}
+
+body {
+	line-height: 1;
+    max-height: 100vh;
+    min-height: 100vh;
+    max-width: 1310px;
+    min-width: 1310px;
+}
+
+.font_Poppins{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.main_container{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--main_color);
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 60%;
+    align-content: center;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.container_content{
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.color1{
+    background-color: #744FA1;
+}
+.color2{
+    background-color: #C1A3E8;
+}
+.color3{
+    background-color: #DEC4FE;
+}
+
+
+.text_container{
+    height: 20%;
+    font-size: 26px;
+    width: 90%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.text_container a{
+    text-decoration: none;
+}
+
+.text1{
+    color: white;
+}
+
+.text2{
+    color: #67458F;
+}
+
+.text3{
+    color: black;
+}
+
+.pictures_container{
+    height: 80%;
+    width: 80%;
+}
+
+
+
+.pic1{
+    background: url('../img/Mobile_user-rafiki.png') no-repeat center;
+	background-size: cover;
+}
+
+.pic2{
+    background: url('../img/True_friends-rafiki.png') no-repeat center;
+	background-size: cover;
+}
+
+.pic3{
+    background: url('../img/Learning-rafiki.png') no-repeat center;
+	background-size: cover;
+}

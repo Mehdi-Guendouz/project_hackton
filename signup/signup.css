@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Paytone+One&family=Poppins:wght@100;200;300;500;600;700&family=Roboto&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+:root{
+    --main_color : #F4F0FF;
+    --second_color : #A98CF3;
+    --input_color : #F4F0FF;
+    --label_color: #744FA1;
+}
+
+body {
+	line-height: 1;
+    max-height: 100vh;
+    min-height: 100vh;
+    max-width: 1310px;
+    min-width: 1310px;
+}
+
+.font_Poppins{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.main_container{
+    height: 130vh;
+    width: 100%;
+    background-color: var(--main_color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second_container{
+    height: 110vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_container{
+    background-color: rgb(169, 140, 243, 16%);
+    order: 2;
+    height: 100%;
+    width: 80%;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.form_container .name_container{
+    width: 100%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: #AA83DC;
+    position: relative;
+    transform: translateY(-60%);
+}
+
+.form_container .input_container{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.form_container .input_container .first-patr_signup{
+
+    height: 55%;
+    width: 100%;
+}
+
+.form_container .input_container .first-patr_signup .two_part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 33%;
+}
+
+.form_container .input_container .first-patr_signup .two_part div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form_container .input_container .first-patr_signup .select_part div{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form_container .input_container .first-patr_signup .select_part div select{
+    padding: 10px 15px;
+    width: 180px;
+    border-radius: 20px;
+    border: 2px var(--label_color) solid;
+    background-color: transparent;
+    color: #744FA1;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+.form_container .input_container .first-patr_signup .one_part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 33%;
+}
+
+
+.form_container .input_container div input{
+    width: 70%;
+    height: 30px;
+    padding: 9px 15px;
+    border-radius: 25px;
+    border: none;
+    background-color: var(--input_color);
+    margin-top: 5px;
+}
+
+.form_container .input_container div input:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.form_container .input_container div label{
+    font-size: 24px;
+    color: var(--label_color);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.form_container .input_container .password {
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: column;
+}
+
+.form_container .input_container .password  div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_container .input_container .logBtn{
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_container .input_container .logBtn button{
+    padding: 15px 60px;
+    background-color: #FC8903;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    border-radius: 60px;
+    border: 2px transparent solid;
+    transition: .5s;
+    font-weight: bold;
+    letter-spacing: .05em;
+}
+
+.form_container .input_container .logBtn button:hover{
+    background-color: white;
+    color: #744FA1;
+    border:2px #744FA1 solid;
+    font-weight: bold;
+    
+}

@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Paytone+One&family=Poppins:wght@100;200;300;500;600;700&family=Roboto&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+:root{
+    --main_color : #F4F0FF;
+    --second_color : #A98CF3;
+    --input_color : #F4F0FF;
+    --label_color: #744FA1;
+}
+
+body {
+	line-height: 1;
+    max-height: 100vh;
+    min-height: 100vh;
+    max-width: 1310px;
+    min-width: 1310px;
+}
+
+.font_Poppins{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.main_container{
+    height: 250vh;
+    width: 100%;
+    background-color: var(--main_color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    position: relative;
+}
+
+.picture_main_cotainer{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 15;
+}
+
+.picture{
+    height: 30vh;
+    background: url('../img/Learning_languages-rafiki.png') ;
+    background-color: #744FA1;
+    background-position: 40% 30%;
+    border-radius: 40px;
+    width: 100%;
+    z-index: 10;
+    position: relative;
+}
+
+.text_translate_container{
+    height: 50vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 80%;
+    column-gap: 30px;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+
+.text_translate_container::before{
+    content: '';
+    width: 80%;
+    bottom: 0;
+    transform: translateX(12%);
+    position: absolute;
+    border-bottom: 1px #AA83DC solid;
+}
+
+.lang_one_container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.lang_one_container .select_lang{
+    height: 25%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lang_one_container .text_translate{
+
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lang_one_container .select_lang select{
+    padding: 15px 40px;
+    text-transform: capitalize;
+    background-color: transparent;
+    border: 2px #43CBFF solid;
+    font-size: 32;
+    text-align: center;
+    color: #744FA1;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.tamazight{
+    padding: 15px 40px;
+    text-transform: capitalize;
+    background-color: transparent;
+    border: 2px #43CBFF solid;
+    font-size: 32;
+    text-align: center;
+    color: #744FA1;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.lang_one_container .text_translate input{
+    padding: 10px 100px;
+    height: 90%;
+    background-color: #BF9EE9;
+    border-radius: 40px;
+    text-align: center;
+    color: white;
+    border: 1px #43CBFF solid;
+    font-size: 20px;
+}
+
+.lang_one_container .text_translate .decoration_border:focus{
+    border-color: #43CBFF;
+}
+
+.voice_cotainer{
+
+    height: 100vh;
+    width: 80%;
+    display: grid;
+    grid-template-rows: repeat(1fr,6);
+}
+
+.text_voice{
+    background-color: #BF9EE9;
+    border-radius: 40px;
+    border: 1px #43CBFF solid;
+    height: 55px;
+    width: 400px;
+    position: relative;
+}
+
+.voice_fields{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.voice_fields .arrow{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow i{
+    color:  #AA83DC;
+    font-size: 32px;
+}
+
+.text_voice i{
+    color: #AA83DC;
+    position: absolute;
+    right: 0;
+    transform: translateY(125%) translateX(-100%);
+}
+
+
+.keybord_container{
+    height: 80vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.keybord_titel{
+    width: 90%;
+    height: 10%;
+    font-size: 36px;
+    color: #67458F;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.main_keybord{
+    height: 45vh;
+    margin-top: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(20%,4);
+    grid-template-columns: 80%;
+    justify-content: center;
+    align-content: center;
+    row-gap: 15px;
+}
+
+
+.row1{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+}
+
+.keybord_container .row2{
+    width: 60%;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.main_keybord div button{
+    background-color: #BF9EE9;
+    color: white;
+    padding: 20px 25px;
+    border-radius: 15px;
+    border: 1px #43CBFF solid;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.main_keybord div button:hover{
+    border: 1px #43CBFF solid;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: var(--label_color);
+}
+
+.main_keybord{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text_zone{
+    height: 30vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    background-color: #9278A5;
+    position: relative;
+    margin-top: 15px;
+}
+
+#text_place {
+    height: 80%;
+    width: 80%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: .09em;
+    text-transform: capitalize;
+}
+
+.text_zone .resetBtn{
+    position: absolute;
+    border-radius: 20px;
+    padding: 15px 25px;
+    background-color: transparent;
+    border: 2px var(--label_color) solid;
+    cursor: pointer;
+    right: 0;
+    transform: translateX(200%);
+    transition: .5s;
+    color: var(--label_color);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text_zone .resetBtn:hover{
+    background-color: #FC8903;
+    border: 2px #FC8903 solid;
+    color: white;
+}
+
+.spaceBtn button{
+    width: 400px;
+}
+
+.spaceBtn .effacer{
+    width: 100px;
+}
+/*
+.text_zone::after{
+    background-color: #67458F;
+    content: '';
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    right: 0;
+    transform: translateX(200%);
+}*/

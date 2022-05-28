@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="transition.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous"/>  
+    <title>transition</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mentor.css">
+    <title>translate</title>
+</head>
+<body>
+    <div class="main_container font_Poppins">
+        <div class="picture_main_cotainer">
+            <div class="picture"></div>
+        </div>
+        <div class="text_translate_container">
+            <div class="lang_one_container">
+                <div class="select_lang">
+                    <select name="lang_one" >
+                        <option value="0">english</option>
+                        <option value="1">arabic</option>
+                        <option value="2">frensh</option>
+                    </select>
+                </div>
+                <div class="text_translate">
+                    <input type="text" placeholder="Write Something" class="decoration_border">
+                </div>
+            </div>
+            <div class="lang_one_container border_bottom">
+                <div class="select_lang">
+                    <h1 class="tamazight">tamazight</h1>
+                </div>
+                <div class="text_translate">
+                    <input type="text" class="decoration_border">
+                </div>
+            </div>
+        </div>
+        <div class="voice_cotainer">
+            <div class="voice_fields">
+                <div class="text_voice"></div>
+                <div class="arrow"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+                <div class="text_voice"><i class="fa fa-volume-up" aria-hidden="true"></i></div>
+            </div>
+            <div class="voice_fields">
+                <div class="text_voice"></div>
+                <div class="arrow"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+                <div class="text_voice"><i class="fa fa-volume-up" aria-hidden="true"></i></div>
+            </div>
+            <div class="voice_fields">
+                <div class="text_voice"></div>
+                <div class="arrow"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+                <div class="text_voice"><i class="fa fa-volume-up" aria-hidden="true"></i></div>
+            </div>
+            <div class="voice_fields">
+                <div class="text_voice"></div>
+                <div class="arrow"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+                <div class="text_voice"><i class="fa fa-volume-up" aria-hidden="true"></i></div>
+            </div>
+            <div class="voice_fields">
+                <div class="text_voice"></div>
+                <div class="arrow"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+                <div class="text_voice"><i class="fa fa-volume-up" aria-hidden="true"></i></div>
+            </div>
+            <div class="voice_fields">
+                <div class="text_voice"></div>
+                <div class="arrow"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+                <div class="text_voice"><i class="fa fa-volume-up" aria-hidden="true"></i></div>
+            </div>
+        </div>
+        <div class="keybord_container">
+            <div class="keybord_titel">
+                <h1>Ecrire en Tamazight</h1>
+            </div>
+            <div class="text_zone">
+                <h4 id="text_place"></h4>
+                <button class="resetBtn" onclick="reset()"><i class="fa fa-re" aria-hidden="true"></i> reset</button>
+            </div>
+            <div class="main_keybord">
+                <div class="row1">
+                    <button class="keybordbtn" value="A">a</button>
+                    <button class="keybordbtn" value="B">b</button>
+                    <button class="keybordbtn" value="C">c</button>
+                    <button class="keybordbtn" value="D">d</button>
+                    <button class="keybordbtn" value="E">e</button>
+                    <button class="keybordbtn" value="F">f</button>
+                    <button class="keybordbtn" value="G">g</button>
+                    <button class="keybordbtn" value="H">h</button>
+                    <button class="keybordbtn" value="I">i</button>
+                </div>
+                <div class="row2">
+                    <button class="keybordbtn" value="J">j</button>
+                    <button class="keybordbtn" value="K">k</button>
+                    <button class="keybordbtn" value="L">l</button>
+                    <button class="keybordbtn" value="M">m</button>
+                    <button class="keybordbtn" value="N">n</button>
+                    <button class="keybordbtn" value="O">o</button>
+                    <button class="keybordbtn" value="P">p</button>
+                    <button class="keybordbtn" value="Q">q</button>
+                </div>
+                <div class="row1">
+                    <button class="keybordbtn" value="R">r</button>
+                    <button class="keybordbtn" value="S">s</button>
+                    <button class="keybordbtn" value="T">t</button>
+                    <button class="keybordbtn" value="U">u</button>
+                    <button class="keybordbtn" value="V">v</button>
+                    <button class="keybordbtn" value="W">w</button>
+                    <button class="keybordbtn" value="X">x</button>
+                    <button class="keybordbtn" value="Y">y</button>
+                    <button class="keybordbtn" value="Z">z</button>
+                </div>
+                <div class="spaceBtn">
+                    <button class="keybordbtn" value="space">space</button>
+                    <button class="keybordbtn effacer" value="delete"><----</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./transition.js"></script>
+</body>
+</html>
+</body>
+</html>
