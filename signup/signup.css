@@ -20,8 +20,8 @@ body {
 	line-height: 1;
     max-height: 100vh;
     min-height: 100vh;
-    max-width: 1310px;
-    min-width: 1310px;
+    max-width: 100%;
+    min-width: 100%;
 }
 
 .font_Poppins{

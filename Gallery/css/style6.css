@@ -1,0 +1,77 @@
+.Row1 {
+
+	margin-top: 3%;
+	width:80% ;
+	margin-left: 30%;
+	color: #744fa1;
+
+
+}
+
+
+h1  .line{
+
+	height: 5px;
+	width: 21%;
+	background-color: #744FA1 ;
+	margin-left: 21%;
+	
+}
+
+
+.Row2 {
+
+	width: 80%;
+	margin-left: 10%;
+	height: 300px;
+	margin-top: 5%;
+}
+
+
+
+.Row2 .col-5 {
+
+	display: grid;
+	gap: 2%;
+    grid-auto-rows: 22% 13% 13% 13%; 
+
+}
+
+.Row2 .col-5 .One1 {
+
+	background-color: #ece3fb;
+	border-radius:15px ;
+	padding: 15px 20px ;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	border: 1px solid #6fd4ff;
+}
+
+.Row2 .col-5 .two,
+.Row2 .col-5 .three,
+.Row2 .col-5 .four {
+
+	width: 60%;
+	background-color: #ccb3ed;
+	margin-left: 3%;
+	padding: 5px 10px;
+	border-radius:15px ;
+	height: 100%;
+    border: 1px solid #6fd4ff;
+
+}
+
+.two::after {
+
+	content: " ";
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+	background-color: red;
+	position: relative;
+	top: 0;
+	left: 110%;
+	z-index: 6;
+
+
+}

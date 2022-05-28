@@ -1,0 +1,183 @@
+*{
+	padding: 0;
+	margin: 0;
+	  font-family: "Poppins";
+
+
+
+}
+
+body{
+	background-color: #f4f0ff;
+   overflow: hidden;
+
+
+}
+
+.container-fluid {
+
+	overflow: hidden;
+}
+
+.rectangle {
+
+	position: absolute;
+	right: -3%;
+	top: 17%;
+	border-radius:30px;
+	width: 800px;
+	height: 600px;
+	background-color: #C1A3E8;
+
+
+}
+
+.nav {
+
+   padding-left:60% ;
+   color: #a98adb;
+   position: absolute;
+   top: 2%;
+
+
+}
+
+.nav-item {
+
+   padding-right: 8px;
+   padding-left: 8px;
+   background-color: transparent;
+   border-radius: 25px;
+   position:absolute ;
+   text-align: center;
+   border:1px solid  #c1a3e8;
+}
+
+.one {
+
+   right: -45%;
+   transition: 0.4s linear;
+
+}
+.tow {
+
+   right: -60%;
+   transition: 0.4s linear;
+
+}
+
+.three{
+
+   left: 2%;
+   background-color: transparent;
+   border: none;
+}
+
+.nav  a {
+
+   color: #a356b9 !important;
+   font-weight: 500;
+   font-size: 20px;
+
+
+}
+
+.rectangle img {
+   position: relative;
+   top: -15%;
+   right: 35%;
+   width: 800px;
+   height: 800px;
+}
+
+.one:hover,
+.tow:hover  {
+
+   background-color: #c1a3e8;
+
+}
+.one:hover a,
+.tow:hover a{
+   color: white !important;
+
+}
+
+img {
+
+   position: absolute;
+   top: 1.5%;
+   left: 3%;
+
+}
+
+
+.discription {
+
+   position: absolute;
+   display: grid;
+   align-items: center;
+   top: 28%;
+   left: 5%;
+   width: 650px;
+   height: 400px;
+   border-radius:50px 0 50px 0;
+   background-color:rgba(255, 255, 255,0.95);
+   backdrop-filter: blur(10px);
+   border:1px solid white;
+   padding: 30px;
+   padding-left: 50px;
+   padding-right: 50px;
+   z-index: 10;
+
+
+}
+
+.discription  p {
+
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 3rem;
+       color: #a356b9;
+
+}
+
+.last {
+
+   position:absolute;
+   bottom: 2%;
+   font-size: 10px;
+   left: 37%;
+   color: #a356b9;
+   letter-spacing: 25px;
+}
+
+.num1,
+.num2 {
+
+   position:absolute;
+   bottom: 1%;
+   font-size: 20px;
+   left: 2%;
+   color: #a356b9;
+   font-weight: 700;
+   letter-spacing: 2px;
+
+}
+
+.num1 {
+
+   bottom: 3%;
+
+   }
+
+
+.L {
+
+   position: absolute;
+   top: -4%;
+
+
+
+}
+
+

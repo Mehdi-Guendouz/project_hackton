@@ -38,10 +38,9 @@ keybordbtn.forEach((element,index)=>{
         const btnclicked = e.currentTarget
         if(btnclicked.value === "space"){
                 text += " "
-        }/*else if (btnclicked.value === "delete"){
-            text[(text.length) -1] = ""
-            console.log(text)
-        }*/
+        }else if (btnclicked.value === "delete"){
+            text = text.substring(0, text.length - 1);
+        }
         else{
             const indexleter =  btnclicked.value
             text += dictionnaire_amazi[indexleter]

@@ -1,0 +1,182 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "Poppins";
+
+}
+
+.navbar-nav {
+
+	width: 100%;
+
+
+}
+body {
+	background-color: #f4f0ff;
+}
+
+.navbar-nav .nav-item {
+
+	padding-left: 9%;
+}
+
+.navbar-nav .nav-item  a {
+
+
+  color: #744FA1 !important; 
+
+
+} 
+
+.one {
+
+	margin-left:20% ;
+}
+
+.circle {
+
+	background-color: #744FA1;
+	width: 40px;
+	height: 40px;
+	border-radius:50% ;
+}
+
+.photo {
+
+	display:grid ;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px ;
+
+
+}
+
+.First {
+
+		border-radius: 50px ;
+
+}
+
+.Second {
+
+	display:grid ;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+
+.freinds {
+
+	background-color: white;
+	width: 100%;
+
+}
+
+.container-md {
+
+	display: grid;
+	align-items: center;
+	align-content: center;
+
+
+}
+
+.zone{
+
+	width:95%;
+	display: grid;
+	align-items: center;
+	align-content: center;
+	gap: 5%;
+	grid-template-columns: 70% 30% ;
+}
+
+.Title{
+
+	display: grid;
+	align-items: center;
+	align-content: center;
+	grid-template-columns: 25% 50% 5%; 
+	color: #744FA1;
+	border: 0.5px solid #744FA1;
+	border-radius: 25px;
+	margin-bottom: 10px;
+
+}
+
+.Tit2{
+
+	grid-template-columns: repeat(2, 47%); 
+	height: 200px;
+}
+.Title .one{
+
+	font-size: 19px;
+	font-weight: 500;
+}
+
+
+
+.One,
+.Two {
+
+	border: 0.5px solid #744FA1;
+	border-radius: 25px;
+	text-align: center;
+	height: 600px;
+	margin-bottom:100px ;
+
+
+
+}
+
+.Title .IMG {
+
+	border-radius: 25px;
+	width: 90%;
+	height: 90%;
+	margin-left:10px ;
+	border: 0.5px solid #744FA1;
+
+
+}
+
+.Body {
+
+	color: #744FA1;
+	font-size: 20px;
+}
+
+.icon {
+
+	position: relative;
+	left:200% ;
+	top: 35%;
+}
+
+.icon1 {
+
+	position: relative;
+	left:120% ;
+	top: -110%;
+}
+
+
+.logo {
+
+	position: absolute;
+	left: 1%;
+	top: -5.5%;
+}
+
+
+
+
+
+
+
+
+
+
