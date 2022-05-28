@@ -1,0 +1,100 @@
+
+.Lines {
+
+
+	position: absolute;
+    top: -5% ;
+    left: 8%;
+    z-index: -5;
+
+
+	
+}
+
+.col-4  .line{
+
+	height: 5px;
+	width: 10%;
+	background-color: #744FA1 ;
+	margin-left: 35%;
+	
+}
+
+.container-fluid .row1 .col-4 {
+
+	margin-top: 30%;
+	color: #744FA1;
+	margin-left: 35%;
+	margin-bottom: 10%;
+	
+}
+
+.row1 .col-4 h1 {
+
+
+	font-weight: 700;
+
+
+	font-size: 23px;
+
+}
+
+
+.container-fluid {
+
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+
+form {
+
+	line-height: 3rem;
+	text-align: center;
+	background-color: #e8dffd;
+	padding: 15%;
+	border-radius: 20px;
+	border: 1px solid #74519f;
+
+}
+
+form label {
+
+	color: #744FA1 ;
+	margin-left: 150%;
+
+
+}
+
+form input {
+
+	border-radius: 20px;
+	border: none;
+	background-color: #f3efff;
+
+
+	}
+
+form .Bttn {
+
+	margin-top: 10%;
+	background-color: #74519f;
+	color: white;
+	padding: 2px 20px;
+	border: none;
+	border-radius: 20px;
+	transition: 0.3s linear;
+	border: 1px solid #74519f;
+
+
+}
+
+form .Bttn:hover {
+
+	background-color: #e8dffd;
+	border: 1px solid #74519f;
+	color: #74519f ;
+
+
+}

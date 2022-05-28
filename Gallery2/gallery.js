@@ -1,36 +1,57 @@
 const pictureTable =[
-    "../img/pic_bejaia/pic1.jpg",
-    "../img/pic_bejaia/pic2.jpg",
-    "../img/pic_bejaia/pic3.jpg",
-    "../img/pic_bejaia/pic4.jpg",
-    "../img/pic_bejaia/pic5.jpg",
-    "../img/pic_bejaia/pic6.jpg",
-    "../img/pic_bejaia/pic7.HEIC",
-    "../img/pic_bejaia/pic8.HEIC",
-    "../img/pic_bejaia/pic9.heic",
-    "../img/pic_bejaia/pic10.HEIC",
-    "../img/pic_bejaia/pic11.HEIC",
-    "../img/pic_bejaia/pic12.HEIC",
-    "../img/pic_bejaia/pic13.HEIC",
-    "../img/pic_bejaia/pic14.jpg",
-    "../img/pic_bejaia/pic15.jpg"
+    "../img/pic_bejaia/g1-1.jpg",
+    "../img/pic_bejaia/g2-1.jpg",
+    "../img/pic_bejaia/g2-2.jpg",
+    "../img/pic_bejaia/g2-3.jpeg",
+    "../img/pic_bejaia/g3-1.png",
+    "../img/pic_bejaia/g3-3.jpeg",
+    "../img/pic_bejaia/g4-2.jpg"
 ]
 
 
 const left = document.querySelector(".go-left")
 const right = document.querySelector(".go-right")
 const imgtab = document.querySelectorAll(".imgshow")
+const hidepar = document.querySelector(".paragraphe")
+const hidtitre = document.querySelector(".titre")
+const hideone = document.querySelector(".hide_one")
 let index = 3
+let traque =0
 
 
 left.addEventListener("click",(e)=>{
     imgtab[0].src = pictureTable[index]
-    imgtab[1].src = pictureTable[index+1]
-    imgtab[2].src = pictureTable[index+2]
-    index +=3
-    if (index>=12){
-        index = 3
+    index++
+    imgtab[1].src = pictureTable[index]
+    index++
+    if (index>=6){
+        index = 0
     }
-    console.log(index)
+    imgtab[2].src = pictureTable[index]
+    hidepar.classList.add("hide_p")
+    hidtitre.classList.add("hide_p")
+    hideone.classList.add("imgs_container")
+    hideone.classList.remove("hide_one")
 })
 
+
+right.addEventListener("click",(e)=>{
+    if (index<0){
+        index = 6
+    }
+    imgtab[0].src = pictureTable[index]
+    index--
+    if (index<0){
+        index = 6
+    }
+    imgtab[1].src = pictureTable[index]
+    index--
+    if (index<0){
+        index = 6
+    }
+    imgtab[2].src = pictureTable[index]
+    hidepar.classList.add("hide_p")
+    hidtitre.classList.add("hide_p")
+    hideone.classList.add("imgs_container")
+    hideone.classList.remove("hide_one")
+})

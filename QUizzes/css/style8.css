@@ -1,0 +1,193 @@
+.container-fluid {
+
+
+	margin-left: 5%;
+	
+
+}
+
+body {
+
+	overflow-x: hidden ;
+
+}
+
+
+.Row01 h1 {
+
+	color: #744fa1 !important;
+	font-weight: 700;
+
+
+}
+
+.Row01  .line{
+
+	height: 5px;
+	width: 19%;
+	background-color: #744FA1 ;
+	margin-left: 9.8%;
+	
+}
+
+
+.Parone {
+
+	background-color: #e8dffd;
+	padding: 40px;
+	border-radius: 25px;
+	border: 1px solid #744fa1 ;
+
+}
+
+.Parone {
+
+	font-size: 15px;
+
+
+	}
+
+
+.Row02  {
+
+
+	width: 90%;
+	margin-left: 5% !important;
+	
+
+}
+
+.Row02 .col-5 {
+
+	grid: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.Row02 .col-3 {
+
+	margin-left: 5%;
+}
+
+.Row02 .col-3 .Img1 {
+
+
+	border-radius: 20px;
+	height: 350px;
+	width: 300px;
+}
+
+.Row02 .col-3 img {
+
+
+
+	border-radius: 20px;
+	height: 100%;
+	width: 100%;
+}
+
+.Row02  .title {
+
+	background-color: #eae3fe;
+	color: #c9b2eb;
+	margin-top: 5%;
+	padding: 10px;
+	width: 85%;
+	display: grid;
+	align-content: center;
+	border-radius: 20px;
+	padding-left: 5%;
+	text-align: center;
+
+
+}
+
+.Row02  .title h1 {
+
+	font-size: 20px;
+
+
+	}
+
+.Oneitem {
+
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+.Secitem {
+
+	background-color: #e8dffd;
+	padding: 40px;
+	border-radius: 25px;
+	border: 1px solid #744fa1 ;
+
+}
+
+
+.Row03 .Image02 {
+
+
+	border-radius: 20px;
+	height: 350px;
+	width: 300px;
+}
+
+.Row03 img {
+
+	border-radius: 20px;
+	height: 100%;
+	width: 100%;
+}
+
+.Parg {
+
+	background-color: #eae3fe;
+	color: #c9b2eb;
+	margin-top: 5%;
+	padding: 10px;
+	width: 85%;
+	display: grid;
+	align-content: center;
+	border-radius: 20px;
+	padding-left: 5%;
+	text-align: center;
+
+
+}
+
+.Secitem {
+
+	display: grid;
+	align-content: center;
+}
+
+.Parg h1 {
+
+	font-size: 20px;
+
+
+}
+
+.Row04 {
+
+	margin-left: 5%;
+}
+
+
+.title,
+.Parg {
+
+	margin-left: 4%;
+}
+
+.Row01  .line2 {
+
+	height: 5px;
+	width: 10%;
+	background-color: #744FA1 ;
+	margin-left: 9.8%;
+
+
+}

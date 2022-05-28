@@ -1,0 +1,148 @@
+.container-fluid .row1 .col-4 {
+
+	margin-left: 5%;
+	color: #744FA1;
+	
+}
+
+.container-fluid .row1 {
+
+	margin-top: 2%;
+	
+}
+
+.container-fluid .row1 .col-4 h1 {
+
+
+	font-weight: 700;
+	font-size: 50px;
+	letter-spacing: 2px;
+
+
+}
+
+.col-4  .line{
+
+	height: 5px;
+	width: 32%;
+	background-color: #744FA1 ;
+	margin-left: 31%;
+	
+}
+
+
+.Row2  .col-4 {
+
+	margin-left: 10%;
+	height: 400px;
+	width: 30%;
+	background-color: #ece3fb;
+	border-radius: 25px;
+	padding-left: 3%;
+	padding-top: 1.5%;
+
+}
+
+.Row2  .col-5{
+
+	margin-left: 2%;
+	border-radius: 25px;
+	background-color: #ece3fb;
+	padding-top: 4%;
+    height: 400px;
+
+}
+
+
+.Row3  .col-4 {
+
+	margin-left: 10%;
+	height: 400px;
+	background-color: #ece3fb;
+	border-radius: 25px;
+	padding-left: 3%;
+	padding-top: 1.5%;
+	width: 30%;
+
+
+
+}
+
+.chart-container {
+  width: 80%;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.pie-chart-container {
+  height: 360px;
+  width: 360px;
+  float: left;
+}
+
+
+.chart-container1 {
+  width: 80%;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.Row3 .col-5 {
+
+	margin-left: 2%;
+	border-radius: 25px;
+	background-color: #ece3fb;
+	padding-top: 4%;
+    height: 400px;
+}
+
+.pie-chart-container,
+.doughnut-chart-container {
+  height: 360px;
+  width: 360px;
+  float: left;
+}
+
+
+.Row5  {
+
+	width: 70%;
+	margin-left: 10%;
+	padding-left: 2%;
+	color:#744FA1; ;
+
+}
+
+.Row6 {
+
+	margin-top: 2%;
+	margin-bottom: 3%;
+	background-color:#c4a9e8;
+	height: 50px;
+	width: 75%;
+	margin-left: 10%;
+	border-radius: 25px;
+	padding-top: 1%;
+    padding-left: 1%;
+    color: white;
+
+
+}
+
+
+
+.Row7 {
+
+	margin-top: 2%;
+	margin-bottom: 3%;
+	background-color:#ece3fb;
+	height: 50px;
+	width: 75%;
+	margin-left: 10%;
+	border-radius: 25px;
+	padding-top: 1%;
+    padding-left: 1%;
+    color: #5e3fbe;
+
+
+}

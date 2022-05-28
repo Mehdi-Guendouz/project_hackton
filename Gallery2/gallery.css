@@ -64,7 +64,11 @@ table {
     height: 100vh;
     width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
 }
+
 
 .imgs_container{
     width: 70%;
@@ -81,6 +85,7 @@ table {
 .imgs_container div{
     position: relative;
     z-index: 5;
+    
 }
 
 .imgs_container div img{
@@ -88,6 +93,7 @@ table {
     width: 100%;
     position: relative;
     z-index: -1;
+    transition: 5s ease-in-out;
 }
 
 .imgs_container div::after{
@@ -113,17 +119,59 @@ table {
     width: 100%;
 }
 
+.hide_p{
+    display: none;
+}
+
+.hide_one .grid2{
+    display: none;
+}
+
+.hide_one .grid3{
+    display: none;
+}
+
+.hide_one .grid1{
+    width: 70%;
+    height: 60%;
+    border-radius: 20px;
+}
+
+.hide_one .grid1 img{
+    border-radius: 20px;
+}
+
+.hide_one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 
 .text_container{
-    background-color: red;
+    margin-left:  10xp;
     width: 40%;
-    height: 100%;
+    height: 65%;
+}
+
+.text_container h1{
+    color: #C1A3E8;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+
+.text_container p{
+    color: #C1A3E8;
+    font-size: 24px;
+    margin-top: 10px;
 }
 
 .footer_container{
-    height: 5vh;
+    height: 2vh;
     width: 25%;
-    background-color: aqua;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -138,9 +186,14 @@ table {
     cursor: pointer;
 }
 
-.footer_cotainer .btnSelected{
-    color: gray;
-    border: 2px gray solid; 
+.main_container .footer_cotainer .btnSelected{
+    color: gray ;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    border: 2px gray solid;
+    cursor: pointer;
+    
 }
 
 
@@ -148,17 +201,18 @@ table {
     width: 0px;
     height: 0px;
     border-style: solid;
-    border-width: 0 15px 30px 15px;
+    border-width: 0 10px 15px 10px;
     border-color: transparent transparent gray transparent;
     transform: rotate(90deg);
     cursor: pointer;
+    
  }
 
  .footer_container .triangle-left {
     width: 0px;
     height: 0px;
     border-style: solid;
-    border-width: 0 15px 30px 15px;
+    border-width: 0 10px 15px 10px;
     border-color: transparent transparent gray transparent;
     transform: rotate(270deg);
     cursor: pointer;
